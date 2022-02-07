@@ -1,22 +1,31 @@
 <div class="container fluid">
     <h2 class="text-center">Create a new quote</h2>
     <hr>
-    <form action="">
+    <form #quoteForm='ngForm'>
 
         <div class="form-group">
             <label for="name">Your Name</label>
-            <input type="text" required class="form-control" id="name">
+            <input type="text" class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name="ngModel" required>
+            <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+                <p>Your name is required</p>
+
+            </div>           
 
         </div>
       
         <div class="form-group">
             <label for="description">Quote</label>
-            <textarea class="form-control" id="description" cols="30" rows="10" required></textarea>
-
+            <textarea class="form-control" id="description" cols="10" rows="6" [(ngModel)]="newQuote.description" name="description" #description="ngModel" required></textarea>
+            <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
+            <p>Quote is required</p>
+            </div>
         </div>
         <div class="form-group">
             <label for="author">Author</label>
-            <input type="text" class="form-control" id="author" required>
+            <input type="text" class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #author="ngModel" required>
+            <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
+            <p>do not plagarise author required</p>
+            </div>
         </div>
 
         <div class="form-group">
@@ -24,6 +33,7 @@
             <input type="date" required>
             
         </div>
+        <button type="submit" class="btn btn-success">Share quote</button>
 
     </form>
 </div>
