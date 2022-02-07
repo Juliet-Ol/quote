@@ -1,6 +1,13 @@
 export class Quote {
-    id!: number;
-    name!: string;
-    description!: string;
+    showDescription: boolean;
+    constructor(public name: string,public description:string,public author:string) {
+        this.showDescription=false;
+    }
+    
+    
+    
+    
+    }
+  
 
-}
+
