@@ -7,6 +7,8 @@ import { QuoteCardComponent } from './quote-card/quote-card.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
+import { StrikethroughDirective } from './strikethrough.directive';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
     QuoteCardComponent,
     QuoteComponent,
     QuoteFormComponent,
-    QuoteDetailComponent
+    QuoteDetailComponent,
+    StrikethroughDirective
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
