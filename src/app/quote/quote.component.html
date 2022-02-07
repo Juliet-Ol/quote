@@ -1,14 +1,22 @@
-<div>
+<div class="container">
     <h1>Words of Wisdom</h1>
     <hr>
-    <ul>
-        <div *ngFor='let quote of quotes; let i = index'>
-            <li>{{quote.name}}</li>
-            <button (click)='toggleDetails(i)'>Toggle Details</button>
-            <app-quote-detail *ngIf="quote.showDescription" [quote]="quote" (isComplete)="completeQuote($event,i)"></app-quote-detail>
+    <div class="row">
+        <div class="col-md-6">    
+            <div *ngFor='let quote of quotes; let i = index'>
+                <div>
+                    <h4 id={{i}} appStrikethrough>{{quote.name}} due on {{quote.date|date|uppercase}}</h4>
+                <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle Details</button>
+            </div>
+            <div *ngIf="quote.showDescription">
+                <app-quote-detail [quote]="quote" (isComplete)=" completeQuote($event,i)"></app-quote-detail>
+            </div>
         </div>
-    </ul>                   
-    <p ></p>        
+    </div>  
+    <div class="col-md-6">
+        <app-quote-form></app-quote-form>
+
+    </div>        
     
   </div>
  
