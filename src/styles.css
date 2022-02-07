@@ -2,11 +2,14 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
 body {
-background-image: url(../back.jpg);
+background-image: url(../skyhorizon.jpg);
 background-size: 100%;
+background-color: aquamarine;
+
 }
 
 h1 {
   text-align: center;
   font-size: 70px;
+  
 }
