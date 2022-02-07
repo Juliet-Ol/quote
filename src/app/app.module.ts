@@ -9,6 +9,7 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { StrikethroughDirective } from './strikethrough.directive';
 import { FormsModule } from '@angular/forms';
+import { likeComponent } from './like.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule } from '@angular/forms';
     QuoteComponent,
     QuoteFormComponent,
     QuoteDetailComponent,
-    StrikethroughDirective
+    StrikethroughDirective,
+    likeComponent
   ],
   imports: [
     BrowserModule,
