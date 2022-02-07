@@ -1,3 +1,27 @@
+**WORDS OF WISDOM**
+
+**By Juliet Agutu Oluoch February 2022
+
+**Description**
+
+Words of wisdom is an app with inspirational messages. Someone posts an inspirational message and the author. The inspirational message gets likes or dislikes.  The message can also be deleted.
+
+**Setup/Installation Requirements Bugs**
+
+The like and dislike button is currently not available. Contact juliet.oluoch@student.moringaschool.com
+
+**Technologies used**
+HTML
+TypeScript
+JavaScript
+CSS
+
+**Support and contact details** Incase of any issues contact detail juliet.oluoch@student.moringaschool.com
+
+**License Copyright** (c) 2021 Juliet Oluoch
+
+
+
 # Quote
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.

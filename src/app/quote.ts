@@ -4,9 +4,6 @@ export class Quote {
         this.showDescription=false;
     }
     
-    
-    
-    
     }
   
 
