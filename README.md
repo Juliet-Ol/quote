@@ -2,13 +2,15 @@
 
 **By Juliet Agutu Oluoch February 2022
 
-**Description**
+**Description and how it works**
 
-Words of wisdom is an app with inspirational messages. Someone posts an inspirational message and the author. The inspirational message gets likes or dislikes.  The message can also be deleted.
+Words of wisdom is an app with inspirational messages. Someone can post an inspirational message and the author. The inspirational message gets likes or dislikes.  The message can also be deleted.
+
+A user types in there name, a quote and the author of the quote. The date is automatically generated. 
 
 **Setup/Installation Requirements Bugs**
 
-The like and dislike button is currently not available. Contact juliet.oluoch@student.moringaschool.com
+The like and dislike button is currently not working for upvotes and downvotes. Contact juliet.oluoch@student.moringaschool.com
 
 **Technologies used**
 HTML
@@ -18,8 +20,27 @@ CSS
 
 **Support and contact details** Incase of any issues contact detail juliet.oluoch@student.moringaschool.com
 
-**License Copyright** (c) 2021 Juliet Oluoch
+**License Copyright**
 
+Copyright (c) 2022 Juliet Oluoch
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 # Quote
