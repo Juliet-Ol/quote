@@ -1,8 +1,11 @@
-<p>{{quote.description}}</p>
-<p>"author"<br>{{quote.author}} </p>
+<p class="inspire">{{quote.description}}</p>
+<p >"author"<br>{{quote.author}} </p>
 <p>{{quote.date}}</p>
 <button (click)="quoteComplete(true)">Delete</button>
 <div>
-<button>like</button>
-<button>dislike</button>
+    <!-- <p>{{numberOfLikes}}</p> -->
+    <button class="like">like</button>
+    <!-- <p>{{numberOfDislikes}}</p> -->
+    <button class="dislike">dislike</button>
+    <p></p>
 </div>

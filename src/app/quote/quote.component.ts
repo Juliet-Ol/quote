@@ -32,6 +32,8 @@ export class QuoteComponent implements OnInit {
     this.quotes.push(quote)
   }
 
+  
+
 
 
   constructor() { }

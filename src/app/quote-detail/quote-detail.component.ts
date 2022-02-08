@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output, } from '@angular/core';
 import { Quote } from '../quote';
 
 @Component({
@@ -14,6 +14,18 @@ export class QuoteDetailComponent implements OnInit {
   quoteComplete(complete:boolean){
     this.isComplete.emit(complete);
   }
+  //  like: any{
+  //    numberOfLikes:number;
+
+  //    likeButtonClick(){
+
+  //    }
+  //    dislikeButtonClick() {
+       
+  //    }
+  //  }
+
+    
 
 
   constructor() { }

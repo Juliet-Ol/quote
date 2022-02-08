@@ -6,6 +6,8 @@ import { Component, Input, OnInit } from '@angular/core';
   
 })
 export class likeComponent{
-  numberOfLikes : number | undefined;
+    numberOfLikes : number | undefined;
+
+  
 
 }
