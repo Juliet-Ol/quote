@@ -2,6 +2,9 @@
 
 **By Juliet Agutu Oluoch February 2022
 
+**Application Link**
+https://juliet-ol.github.io/quote/
+
 **Description and how it works**
 
 Words of wisdom is an app with inspirational messages. Someone can post an inspirational message and the author. The inspirational message gets likes or dislikes.  The message can also be deleted.
